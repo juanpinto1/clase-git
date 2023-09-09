@@ -1,0 +1,25 @@
+
+.container{ 
+display: flex;
+justify-content: center;
+margin-top: 55px;
+}
+
+.imagen{
+    width: 100px;
+   margin:0 15px;
+}
+
+.hola{
+    text-align: center;
+}
+
+.footer{
+background-color: aqua;
+color: brown;
+ margin: 30px 30px 30px 30px ;
+}
+.footer {
+    font-family: 'Roboto', sans-serif;
+
+}

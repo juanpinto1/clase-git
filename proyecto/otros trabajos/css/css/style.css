@@ -1,0 +1,39 @@
+.header {
+    height: 10em;
+    padding: 10em;
+font-size: 2em;
+    background-image: url("../img/paisaje1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: crimson;
+
+    
+
+    
+.hola {
+color: black;
+text-shadow: 0 0 0 8px rgba(0, 0, 0, 0.8)    
+}
+
+.products {
+width: 80%;
+margin: auto;
+}
+.products td {
+width: 50%;
+padding: 2em;
+}
+.products img {
+width: 100%;
+border: solid 1px #ddd;
+
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    }
+

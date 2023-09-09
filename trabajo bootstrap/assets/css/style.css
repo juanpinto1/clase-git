@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: "roboto", sans-serif;
+    background-color: var(--white);
+}
+
+:root{
+    --white: #ffff;
+    --gris: #c7c6c6;
+    --claro: #707070;
+    --light: #f8f9fa;
+    --success: #28a745;
+    --otro-gris: #212529;
+}
+
+.navbar{
+    background-color: var(--success);
+    margin: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.navbar-brand{
+    color: var(--white);
+    font-weight: 700;
+    margin-left: 2%;
+}
+#navbarNav .navbar-nav .nav-item .active{
+    color: var(--white);
+}
+.container-fluid .navbar-brand{
+    width: 100px;
+}
+#navbarNav .navbar-nav .nav-item .gris{
+    color: var(--gris);
+}
+
+#navbarNav .navbar-nav .nav-item .disabled{
+    color: #3a914f;
+}
+.navbar-collapse{
+    text-align: end;
+    justify-content: end; 
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 20%;  
+}
+.text-body-secondary{
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.oferta{
+    color: var(--success);
+    font-size: 1.8rem;
+    margin-top: 2%;
+    padding-right: 5%;
+}
+.formulario1{   
+    width: 100%; 
+    background-color:var(--success);
+    padding: 40px 40px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}   
+.formulario1 input{
+    width: 100%;
+    justify-items: center;
+    padding-left: 1%;
+    margin-top: 6px;
+}
+label{
+    color:#ffff;
+    font-size: 25px;
+}
+footer{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    justify-tracks: center;
+    width: 100%; 
+}
+.boton{
+    width: 20%;
+    margin-left: 34%;
+    margin-right: 40%;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+
+
+

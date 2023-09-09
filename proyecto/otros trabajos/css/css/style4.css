@@ -1,0 +1,19 @@
+
+
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/paisaje1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.warp-texto{
+    color: black;
+    text-align: center;
+    width: 50%;
+}
